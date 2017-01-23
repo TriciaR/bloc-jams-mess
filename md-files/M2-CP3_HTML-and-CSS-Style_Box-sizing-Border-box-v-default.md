@@ -28,8 +28,10 @@ the actual rendered width/height is wider than the width/height you set. (ie: wi
 
 >}
 
+
+
 > the box-sizing: border-box allows for easier calculations of screen space since for example placing 4 boxes at 25% each horozontally will fit without expanding past the screen no matter what the border or padding is applied. (NOT margin)
 - border and padding is INCLUDED in the WIDTH/HEIGHT
 
-- width/height = width
+- actual width of content = width - padding(l+r) - border(l+r)
 
