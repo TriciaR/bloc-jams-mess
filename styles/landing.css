@@ -28,15 +28,15 @@ body.landing {
 
 .selling-points {
     position: relative;
-    // display: table;    replaced by column's float property
-    // width: 100%;  now applied in column & container class
+/* display: table;    replaced by column's float property*/
+/* width: 100%;  now applied in column & container class*/
 }
 
 .point {
-    // display: table-cell;  replaced by column's float property
+/* display: table-cell;  replaced by column's float property*/
     position: relative;
     padding: 2rem;
-    // width: 33.3%;  now applied in column & container class
+/* width: 33.3%;  now applied in column & container class*/
     text-align: center;
 }
 

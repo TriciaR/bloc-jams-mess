@@ -32,7 +32,7 @@ body {
   max-width: 64rem;
 }
 
-//MEDIUM screens 640px ie tablets,iPads
+/*MEDIUM screens 640px ie tablets,iPads*/
 @media (min-width: 640px) {
   html { font-size: 112%; }
 
@@ -50,7 +50,17 @@ body {
   .column.flow-opposite { float: right; }
 }
 
-//larger screens ie desktops
+/*larger screens ie desktops*/
 @media (min-width: 1024px) {
   html { font-size: 120%; }
+}
+
+.clearfix::before,
+.clearfix::after {
+   content: " ";
+   display: table;
+}
+
+.clearfix::after {
+   clear: both;
 }
